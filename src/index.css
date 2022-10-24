@@ -48,6 +48,10 @@ main {
 	cursor: pointer;
 }
 
+.die.selected {
+	background-color: #59e391;
+}
+
 .roll-btn {
 	background: #5035ff;
 	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.18);
