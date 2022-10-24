@@ -15,6 +15,9 @@ export default function App() {
 	return (
 		<main>
 			<div className='dice-container'>{diceArray}</div>
+			<button onClick={() => setDiceArray(allNewDice())} className='roll-btn'>
+				Roll
+			</button>
 		</main>
 	);
 }
