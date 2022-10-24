@@ -10,7 +10,7 @@
 }
 
 body {
-	color: #222;
+	color: #2b283a;
 	background-color: #0b2434;
 }
 
@@ -18,7 +18,7 @@ main {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	top: 50%;
 	left: 50%;
@@ -27,7 +27,7 @@ main {
 	width: 40rem;
 	height: 40rem;
 	border-radius: 1rem;
-	gap: 4rem;
+	padding-block: 2rem;
 }
 
 .dice-container {
@@ -70,4 +70,15 @@ main {
 
 .roll-btn:active {
 	box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.title {
+	font-size: 3rem;
+}
+
+.instructions {
+	font-size: 1.5rem;
+	width: 70%;
+	text-align: center;
+	color: #4a4e74;
 }
